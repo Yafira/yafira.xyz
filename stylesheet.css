@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 4vw;
+    align-items: center;
+    margin: 60px;
+}
+
+
+.flower-accent:hover {
+    color: rgb(237, 64, 243);
+}
+
+.thunder:hover {
+    color: rgb(19, 228, 71);
+}
+
+#portfolio {
+    text-decoration: none;
+    color: #000;
+}
+
+#portfolio:hover {
+    color: rgb(199, 165, 238);
+}
+
+#instagram {
+    text-decoration: none;
+    color: #000;
+}
+
+#instagram:hover {
+    color: rgb(176, 228, 19);
+}
+
+#linkedin {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#linkedin:hover {
+    color: rgb(85, 215, 255);
+}
+
+#github {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#github:hover {
+    color: rgb(132, 140, 227)
+}
+
+#dribbble {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#dribbble:hover {
+    color: #000;
+    color: rgb(227, 192, 132)
+}
+
+#pinterest {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#pinterest:hover {
+    color: #000;
+    color: rgb(227, 132, 154)
+}
