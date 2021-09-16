@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #ffffef;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    font-size: 4vw;
+    font-size: 3vw;
+    position: relative;
     align-items: center;
-    margin: 60px;
+    margin: 80px;
 }
 
 
@@ -18,8 +19,76 @@ body {
     color: rgb(237, 64, 243);
 }
 
+.flower-accent2:hover {
+    color: rgb(64, 64, 243);
+}
+
+.flower-accent3:hover {
+    color: rgb(64, 130, 243);
+}
+
+.flower-accent4:hover {
+    color: rgb(162, 81, 255);
+}
+
 .thunder:hover {
-    color: rgb(19, 228, 71);
+    color: rgb(247, 78, 16);
+}
+
+.compute:hover {
+    cursor: url('./assets/compute.png'), auto;
+}
+
+.code:hover {
+    cursor: url('./assets/code.png'), auto;
+}
+
+.tech:hover {
+    cursor: url('./assets/ai.png'), auto;
+}
+
+.art:hover {
+    cursor: url('./assets/art.png'), auto;
+}
+
+.design:hover {
+    cursor: url('./assets/design.png'), auto;
+}
+
+.design2:hover {
+    cursor: url('./assets/design2.png'), auto;
+}
+
+.tools:hover {
+    cursor: url('./assets/tools.png'), auto;
+}
+
+.vegan:hover {
+    cursor: url('./assets/vegan.png'), auto;
+}
+
+.read:hover {
+    cursor: url('./assets/read.png'), auto;
+}
+
+.tea:hover {
+    cursor: url('./assets/tea.png'), auto;
+}
+
+.confections:hover {
+    cursor: url('./assets/macaron.png'), auto;
+}
+
+.wagashi:hover {
+    cursor: url('./assets/dango.png'), auto;
+}
+
+.travel:hover {
+    cursor: url('./assets/earth.png'), auto;
+}
+
+.nintendo:hover {
+    cursor: url('./assets/switch.png'), auto;
 }
 
 #portfolio {
@@ -30,6 +99,7 @@ body {
 
 #portfolio:hover {
     color: rgb(199, 165, 238);
+    cursor: url('./assets/floppy.png'), auto;
 }
 
 #instagram {
@@ -39,7 +109,8 @@ body {
 }
 
 #instagram:hover {
-    color: rgb(176, 228, 19);
+    color: rgb(50, 228, 19);
+    cursor: url('./assets/camera.png'), auto;
 }
 
 #linkedin {
@@ -50,6 +121,7 @@ body {
 
 #linkedin:hover {
     color: rgb(85, 215, 255);
+    cursor: url('./assets/linkedin.png'), auto;
 }
 
 #github {
@@ -59,7 +131,8 @@ body {
 }
 
 #github:hover {
-    color: rgb(132, 140, 227)
+    color: rgb(132, 140, 227);
+    cursor: url('./assets/github.png'), auto;
 }
 
 #dribbble {
@@ -70,7 +143,8 @@ body {
 
 #dribbble:hover {
     color: #000;
-    color: rgb(227, 192, 132)
+    color: rgb(227, 192, 132);
+    cursor: url('./assets/dribbble.png'), auto;
 }
 
 #pinterest {
@@ -81,5 +155,17 @@ body {
 
 #pinterest:hover {
     color: #000;
-    color: rgb(227, 132, 154)
+    color: rgb(227, 132, 154);
+    cursor: url('./assets/pin.png'), auto;
+}
+
+#email {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#email:hover {
+    color: rgb(206, 132, 227);
+    cursor: url('./assets/email.png'), auto;
 }
