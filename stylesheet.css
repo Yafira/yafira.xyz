@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ffffef;
+    background-color: #fffffb;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
     font-size: 3vw;
@@ -24,7 +24,7 @@ body {
 }
 
 .flower-accent3:hover {
-    color: rgb(64, 130, 243);
+    color: rgb(105, 222, 249);
 }
 
 .flower-accent4:hover {
@@ -89,6 +89,19 @@ body {
 
 .nintendo:hover {
     cursor: url('./assets/switch.png'), auto;
+}
+
+#blog {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#blog:hover {
+    text-decoration: none;
+    color: rgb(244, 181, 254);
+    font-weight: 500;
+    cursor: url('./assets/thunder.png'), auto;
 }
 
 #portfolio {
