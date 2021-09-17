@@ -8,10 +8,16 @@ body {
     background-color: #fffffb;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    font-size: 3vw;
-    position: relative;
+    font-size: 3.5vw;
+    position: absolute;
     align-items: center;
-    margin: 80px;
+    padding: 30px;
+    margin: 40px;
+}
+
+.flower-accent, .flower-accent2, .flower-accent3, .flower-accent3, .flower-accent4 {
+    font-size: 3vw;
+    font-family: 'Bretagne self modern web', sans-serif;
 }
 
 
