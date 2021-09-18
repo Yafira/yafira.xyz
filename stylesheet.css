@@ -15,6 +15,11 @@ body {
     margin: 40px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .flower-accent, .flower-accent2, .flower-accent3, .flower-accent3, .flower-accent4 {
     font-size: 3vw;
     font-family: 'Bretagne self modern web', sans-serif;
