@@ -20,7 +20,6 @@ body {
     font-family: 'Bretagne self modern web', sans-serif;
 }
 
-
 .flower-accent:hover {
     color: rgb(237, 64, 243);
 }
@@ -35,6 +34,10 @@ body {
 
 .flower-accent4:hover {
     color: rgb(162, 81, 255);
+}
+
+.name:hover {
+    color: rgb(199, 165, 238);
 }
 
 .thunder:hover {
@@ -121,7 +124,7 @@ body {
 }
 
 #portfolio:hover {
-    color: rgb(199, 165, 238);
+    color:cornflowerblue;
     cursor: url('./assets/floppy.png'), auto;
 }
 
