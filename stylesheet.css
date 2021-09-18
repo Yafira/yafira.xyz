@@ -53,6 +53,10 @@ body {
     cursor: url('./assets/ai.png'), auto;
 }
 
+.checker:hover {
+    cursor: url('./assets/checker.png'), auto;
+}
+
 .art:hover {
     cursor: url('./assets/art.png'), auto;
 }
