@@ -8,7 +8,7 @@ body {
     background-color: #fffffb;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    font-size: 3.5vw;
+    font-size: 3vw;
     position: absolute;
     align-items: center;
     padding: 30px;
@@ -187,4 +187,11 @@ body {
 #email:hover {
     color: rgb(206, 132, 227);
     cursor: url('./assets/email.png'), auto;
+}
+
+@media (max-width: 440px) {
+    body {
+        padding: 0px;
+        font-size: 16px;
+    }
 }
