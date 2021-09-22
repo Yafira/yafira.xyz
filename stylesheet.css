@@ -81,10 +81,6 @@ img {
     cursor: url('./assets/tools.png'), auto;
 }
 
-.vegan:hover {
-    cursor: url('./assets/vegan.png'), auto;
-}
-
 .read:hover {
     cursor: url('./assets/read.png'), auto;
 }
@@ -107,6 +103,30 @@ img {
 
 .nintendo:hover {
     cursor: url('./assets/switch.png'), auto;
+}
+
+#photos {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#photos:hover {
+    color: rgb(241, 77, 85);
+    cursor: url('./assets/camera.png'), auto;
+}
+
+#plantbasedcraft {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#plantbasedcraft:hover {
+    text-decoration: none;
+    color: rgb(19, 228, 96);
+    font-weight: 500;
+    cursor: url('./assets/vegan.png'), auto;
 }
 
 #blog {
@@ -140,8 +160,8 @@ img {
 }
 
 #instagram:hover {
-    color: rgb(50, 228, 19);
-    cursor: url('./assets/camera.png'), auto;
+    color: rgb(241, 77, 134);
+    cursor: url('./assets/ig.png'), auto;
 }
 
 #linkedin {
@@ -176,6 +196,18 @@ img {
     color: #000;
     color: rgb(227, 192, 132);
     cursor: url('./assets/dribbble.png'), auto;
+}
+
+#twitter {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#twitter:hover {
+    color: #000;
+    color: rgb(10, 151, 245);
+    cursor: url('./assets/twitter.png'), auto;
 }
 
 #pinterest {
