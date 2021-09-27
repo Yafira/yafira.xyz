@@ -112,7 +112,7 @@ img {
 }
 
 #photos:hover {
-    color: rgb(241, 77, 85);
+    color: rgb(191, 240, 216);
     cursor: url('./assets/camera.png'), auto;
 }
 
