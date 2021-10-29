@@ -105,7 +105,7 @@ img {
     cursor: url('./assets/switch.png'), auto;
 }
 
-#photos {
+#photos, #plantbasedcraft, #blog, #portfolio, #instagram, #linkedin, #github, #dribbble, #twitter, #pinterest, #email {
     text-decoration: none;
     color: #000;
     font-weight: 500;
@@ -116,23 +116,11 @@ img {
     cursor: url('./assets/camera.png'), auto;
 }
 
-#plantbasedcraft {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
 #plantbasedcraft:hover {
     text-decoration: none;
     color: rgb(19, 228, 96);
     font-weight: 500;
     cursor: url('./assets/vegan.png'), auto;
-}
-
-#blog {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
 }
 
 #blog:hover {
@@ -142,21 +130,9 @@ img {
     cursor: url('./assets/thunder.png'), auto;
 }
 
-#portfolio {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
 #portfolio:hover {
     color:cornflowerblue;
     cursor: url('./assets/floppy.png'), auto;
-}
-
-#instagram {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
 }
 
 #instagram:hover {
@@ -164,32 +140,14 @@ img {
     cursor: url('./assets/ig.png'), auto;
 }
 
-#linkedin {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
 #linkedin:hover {
     color: rgb(85, 215, 255);
     cursor: url('./assets/linkedin.png'), auto;
 }
 
-#github {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
 #github:hover {
     color: rgb(132, 140, 227);
     cursor: url('./assets/github.png'), auto;
-}
-
-#dribbble {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
 }
 
 #dribbble:hover {
@@ -198,34 +156,16 @@ img {
     cursor: url('./assets/dribbble.png'), auto;
 }
 
-#twitter {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
 #twitter:hover {
     color: #000;
     color: rgb(10, 151, 245);
     cursor: url('./assets/twitter.png'), auto;
 }
 
-#pinterest {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-
 #pinterest:hover {
     color: #000;
     color: rgb(227, 132, 154);
     cursor: url('./assets/pin.png'), auto;
-}
-
-#email {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
 }
 
 #email:hover {
