@@ -1,186 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #fffffb;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 300;
-    font-size: 3vw;
-    position: absolute;
-    align-items: center;
-    padding: 30px;
-    margin: 40px;
+  background-color: #fffffb;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-size: 3vw;
+  position: absolute;
+  align-items: center;
+  padding: 30px;
+  margin: 40px;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.flower-accent, .flower-accent2, .flower-accent3, .flower-accent3, .flower-accent4 {
-    font-size: 3vw;
-    font-family: 'Bretagne self modern web', sans-serif;
+.flower-accent,
+.flower-accent2,
+.flower-accent3,
+.flower-accent3,
+.flower-accent4 {
+  font-size: 3vw;
+  font-family: "Bretagne self modern web", sans-serif;
 }
 
 .flower-accent:hover {
-    color: rgb(237, 64, 243);
+  color: rgb(237, 64, 243);
 }
 
 .flower-accent2:hover {
-    color: rgb(64, 64, 243);
+  color: rgb(64, 64, 243);
 }
 
 .flower-accent3:hover {
-    color: rgb(105, 222, 249);
+  color: rgb(105, 222, 249);
 }
 
 .flower-accent4:hover {
-    color: rgb(162, 81, 255);
+  color: rgb(162, 81, 255);
 }
 
 .name:hover {
-    color: rgb(199, 165, 238);
+  color: rgb(199, 165, 238);
 }
 
 .thunder:hover {
-    color: rgb(247, 78, 16);
+  color: rgb(247, 78, 16);
 }
 
 .compute:hover {
-    cursor: url('./assets/compute.png'), auto;
+  cursor: url("./assets/compute.png"), auto;
 }
 
 .code:hover {
-    cursor: url('./assets/code.png'), auto;
+  cursor: url("./assets/code.png"), auto;
 }
 
 .tech:hover {
-    cursor: url('./assets/ai.png'), auto;
+  cursor: url("./assets/ai.png"), auto;
 }
 
 .checker:hover {
-    cursor: url('./assets/checker.png'), auto;
+  cursor: url("./assets/checker.png"), auto;
+}
+
+.internet:hover {
+  cursor: url("./assets/internet.png"), auto;
 }
 
 .art:hover {
-    cursor: url('./assets/art.png'), auto;
+  cursor: url("./assets/art.png"), auto;
 }
 
 .design:hover {
-    cursor: url('./assets/design.png'), auto;
+  cursor: url("./assets/design.png"), auto;
 }
 
 .design2:hover {
-    cursor: url('./assets/design2.png'), auto;
+  cursor: url("./assets/design2.png"), auto;
 }
 
 .tools:hover {
-    cursor: url('./assets/tools.png'), auto;
+  cursor: url("./assets/tools.png"), auto;
 }
 
 .read:hover {
-    cursor: url('./assets/read.png'), auto;
+  cursor: url("./assets/read.png"), auto;
 }
 
 .tea:hover {
-    cursor: url('./assets/tea.png'), auto;
+  cursor: url("./assets/tea.png"), auto;
 }
 
 .confections:hover {
-    cursor: url('./assets/macaron.png'), auto;
+  cursor: url("./assets/macaron.png"), auto;
 }
 
 .wagashi:hover {
-    cursor: url('./assets/dango.png'), auto;
+  cursor: url("./assets/dango.png"), auto;
 }
 
 .travel:hover {
-    cursor: url('./assets/earth.png'), auto;
+  cursor: url("./assets/earth.png"), auto;
 }
 
 .nintendo:hover {
-    cursor: url('./assets/switch.png'), auto;
+  cursor: url("./assets/switch.png"), auto;
 }
 
-#photos, #plantbasedcraft, #blog, #portfolio, #instagram, #linkedin, #github, #glitch, #dribbble, #twitter, #pinterest, #email {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
+#photos,
+#plantbasedcraft,
+#blog,
+#portfolio,
+#instagram,
+#linkedin,
+#github,
+#glitch,
+#dribbble,
+#twitter,
+#pinterest,
+#email {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
 }
 
 #photos:hover {
-    color: rgb(191, 240, 216);
-    cursor: url('./assets/camera.png'), auto;
+  color: rgb(191, 240, 216);
+  cursor: url("./assets/camera.png"), auto;
 }
 
 #plantbasedcraft:hover {
-    text-decoration: none;
-    color: rgb(19, 228, 96);
-    font-weight: 500;
-    cursor: url('./assets/vegan.png'), auto;
+  text-decoration: none;
+  color: rgb(19, 228, 96);
+  font-weight: 500;
+  cursor: url("./assets/vegan.png"), auto;
 }
 
 #blog:hover {
-    text-decoration: none;
-    color: rgb(244, 181, 254);
-    font-weight: 500;
-    cursor: url('./assets/thunder.png'), auto;
+  text-decoration: none;
+  color: rgb(244, 181, 254);
+  font-weight: 500;
+  cursor: url("./assets/thunder.png"), auto;
 }
 
 #portfolio:hover {
-    color:cornflowerblue;
-    cursor: url('./assets/floppy.png'), auto;
+  color: cornflowerblue;
+  cursor: url("./assets/floppy.png"), auto;
 }
 
 #instagram:hover {
-    color: rgb(241, 77, 134);
-    cursor: url('./assets/ig.png'), auto;
+  color: rgb(241, 77, 134);
+  cursor: url("./assets/ig.png"), auto;
 }
 
 #linkedin:hover {
-    color: rgb(85, 215, 255);
-    cursor: url('./assets/linkedin.png'), auto;
+  color: rgb(85, 215, 255);
+  cursor: url("./assets/linkedin.png"), auto;
 }
 
 #github:hover {
-    color: rgb(132, 140, 227);
-    cursor: url('./assets/github.png'), auto;
+  color: rgb(132, 140, 227);
+  cursor: url("./assets/github.png"), auto;
 }
 
 #glitch:hover {
-    color: rgb(87, 71, 224);
-    cursor: url('./assets/glitch.png'), auto;
+  color: rgb(87, 71, 224);
+  cursor: url("./assets/glitch.png"), auto;
 }
 
 #dribbble:hover {
-    color: #000;
-    color: rgb(227, 192, 132);
-    cursor: url('./assets/dribbble.png'), auto;
+  color: #000;
+  color: rgb(227, 192, 132);
+  cursor: url("./assets/dribbble.png"), auto;
 }
 
 #twitter:hover {
-    color: #000;
-    color: rgb(10, 151, 245);
-    cursor: url('./assets/twitter.png'), auto;
+  color: #000;
+  color: rgb(10, 151, 245);
+  cursor: url("./assets/twitter.png"), auto;
 }
 
 #pinterest:hover {
-    color: #000;
-    color: rgb(227, 132, 154);
-    cursor: url('./assets/pin.png'), auto;
+  color: #000;
+  color: rgb(227, 132, 154);
+  cursor: url("./assets/pin.png"), auto;
 }
 
 #email:hover {
-    color: rgb(206, 132, 227);
-    cursor: url('./assets/email.png'), auto;
+  color: rgb(206, 132, 227);
+  cursor: url("./assets/email.png"), auto;
 }
 
 @media (max-width: 440px) {
-    body {
-        padding: 0px;
-        font-size: 16px;
-    }
+  body {
+    padding: 0px;
+    font-size: 16px;
+  }
 }
