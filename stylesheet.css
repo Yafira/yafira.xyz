@@ -115,6 +115,10 @@ img {
 	cursor: url('./assets/switch.png'), auto;
 }
 
+.nature:hover {
+	cursor: url('./assets/mushroom.png'), auto;
+}
+
 #photos,
 #plantbasedcraft,
 #blog,
@@ -141,7 +145,7 @@ img {
 	text-decoration: none;
 	color: rgb(19, 228, 96);
 	font-weight: 500;
-	cursor: url('./assets/vegan.png'), auto;
+	cursor: url('./assets/cooking.png'), auto;
 }
 
 #blog:hover {
